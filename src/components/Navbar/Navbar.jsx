@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "/logo-a.svg";
-import Button from "../Button";
+import Button from "../Button/Button";
 import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="flex text-[12px] font-[700] items-center gap-4">
             <Link to="/signin">Sign in</Link>
             <Link to="/join">
-              <Button/>
+              <Button name="Join Apenia"/>
             </Link>
           </div>
         </div>

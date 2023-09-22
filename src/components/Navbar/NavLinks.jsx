@@ -42,7 +42,9 @@ const NavLinks = () => {
                     {link.sublinks.map((mysublinks, index) => (
                       <div key={index}>
                         <h1 className="text-[12px] font-medium">
-                          {mysublinks.Head}
+                          <Link to={mysublinks.link}>
+                            {mysublinks.Head}
+                          </Link>
                         </h1>
                         
                       </div>

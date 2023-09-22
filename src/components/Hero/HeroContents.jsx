@@ -7,6 +7,10 @@ export const HeroContents = [
         join:{
             h1:"Download Kuda, open an account!",
             p:"Scan the QR code below with your phone camera to download the Kuda app."
+        },
+        careers:{
+            h1:"Join our journey...",
+            p:"The money app for Africans."
         }
     }
 ]

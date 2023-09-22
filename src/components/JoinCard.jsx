@@ -1,6 +1,6 @@
 import React from 'react'
 import image from "/assets/vg5.svg"
-import Button from './Button'
+import Button from './Button/Button'
 
 function JoinCard() {
   return (
