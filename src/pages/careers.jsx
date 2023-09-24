@@ -38,18 +38,155 @@ function Careers() {
             </p>
         </div>
       </section>
-      <section className="px-5 md:px-20">
-        <h1>Benefits</h1>
-        <p>
-          Beyond a competitive salary, we offer perks and
-          resources to help our team thrive.
-        </p>
+      <section className="px-5 md:p-20">
+        <div className='flex flex-col items-center font-[Mulish]'>
+          <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center mb-2'>Benefits</h1>
+          <p className='text-center w-1/3'>
+            Beyond a competitive salary, we offer perks and resources to help our team thrive.
+          </p>
+        </div>
+        <div className='flex justify-center mt-8'>
+          <div className='grid md:grid-cols-3 gap-5'>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section className="px-5 md:px-20">
-        <h1>Job openings</h1>
-        <p>
-          Here are some locations we work from.
-        </p>
+        <div className='flex flex-col items-center font-[Mulish]'>
+            <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center mb-2'>Job openings</h1>
+            <p className='text-center w-1/3'>
+              Here are some locations we work from.
+            </p>
+        </div>
+        <div className='flex justify-center mt-8'>
+          <div className='grid md:grid-cols-3 gap-5 px-5'>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+            <div className='p-5 w-72 bg-white drop-shadow-3xl rounded-lg mb-5'>
+              <div className='w-[32px] h-[32px] bg-red-300 rounded-full mb-4'></div>
+              <div>
+                <h1 className='text-[14px] font-[900] text-primary'>Life Assurance</h1>
+                <p className='text-[11px]'>We will automatically enroll you into our pension scheme.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section>
         <Testimonials name="employee"/>
