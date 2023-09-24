@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer'
 import { HeroContents } from '../components/Hero/HeroContents'
 import Button from '../components/Button/Button'
 import team from "/assets/team.svg";
+import Testimonials from '../components/Testimonials/Testimonials'
 
 function Careers() {
   return (
@@ -36,6 +37,22 @@ function Careers() {
                 Are you ready to be part of a dynamic team dedicated to transforming banking in Africa? At Apenia Bank, we're on a mission to empower individuals and micro-enterprises, fostering financial growth and potential. Join us in shaping the future of finance, where transparency, innovation, and community-driven values come together to create meaningful impact. Explore exciting career opportunities with Apenia today and be a part of our journey towards a brighter financial future for all.
             </p>
         </div>
+      </section>
+      <section className="px-5 md:px-20">
+        <h1>Benefits</h1>
+        <p>
+          Beyond a competitive salary, we offer perks and
+          resources to help our team thrive.
+        </p>
+      </section>
+      <section className="px-5 md:px-20">
+        <h1>Job openings</h1>
+        <p>
+          Here are some locations we work from.
+        </p>
+      </section>
+      <section>
+        <Testimonials name="employee"/>
       </section>
       <section className="mt-14 mb-14 px-2 md:px-20 border-t border-t-slate-200">
         <Footer/>

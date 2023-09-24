@@ -31,7 +31,7 @@ const Navbar = () => {
         <ul className={`md:hidden bg-white fixed w-full h-screen top-0 overflow-y-auto bottom-0 py-24 pl-4 ${open ? "left-0" : "left-[-100%]"} duration-300`}>
           <NavLinks />
           <div className="py-5">
-            <Button />
+            <Button name="Join Apenia"/>
           </div>
         </ul>
       </div>

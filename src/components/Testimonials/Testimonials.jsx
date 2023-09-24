@@ -1,12 +1,12 @@
 import React from 'react'
-import { TestimonialsContents } from './testimonialcontents'
+import { TestimonialsContents } from './testimonialcontentsforusers'
 
-function Testimonials() {
+function Testimonials(props) {
   return (
     <>
         <div className='mt-20 '>
             <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center'>
-                Don’t just take our word for it
+                {props.name=="users"?"Don’t just take our word for it":"Employee Testimonials"}
             </h1>
         </div>
         <div className='flex flex-row flex-nowrap gap-5 overflow-x-auto no-scrollbar p-5 pb-10 pt-10'>

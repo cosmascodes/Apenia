@@ -14,7 +14,7 @@ function JoinCard() {
                     <p className='text-[14px] mb-5 mt-2'>
                         Save, spend, send and invest money across borders.
                     </p>
-                    <Button/>
+                    <Button name="Join Apenia"/>
                 </div>                
             </div>
             <div className='hidden md:block md:absolute bottom-0 -right-2 overflow-hidden'>

@@ -12,7 +12,6 @@ import { Slide } from "react-awesome-reveal";
 function Content() {
   return (
     <div className='md:px-20 flex flex-col'>
-      {/* [&>*:nth-child(even)]:flex-row-reverse */}
         <div className={`flex mt-40 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:full select-none relative flex justify-center items-center'>

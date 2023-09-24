@@ -26,7 +26,7 @@ const Main = () => {
         <Content/>
       </section>
       <section>
-        <Testimonials/>
+        <Testimonials name="users"/>
       </section>
       <section className="px-5 md:px-20">
         <JoinCard/>

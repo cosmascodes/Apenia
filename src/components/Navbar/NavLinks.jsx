@@ -72,29 +72,10 @@ const NavLinks = () => {
                     }
                     className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center"
                   >
-                    {slinks.Head}
-
-                    <span className="text-xl md:mt-1 md:ml-2 inline">
-                      <ion-icon
-                        name={`${
-                          subHeading === slinks.Head
-                            ? "chevron-up"
-                            : "chevron-down"
-                        }`}
-                      ></ion-icon>
-                    </span>
+                    <Link to={slinks.link}>
+                      {slinks.Head}
+                    </Link>
                   </h1>
-                  {/* <div
-                    className={`${
-                      subHeading === slinks.Head ? "md:hidden" : "hidden"
-                    }`}
-                  >
-                    {slinks.sublink.map((slink, index) => (
-                      <li className="py-3 pl-14" key={index}>
-                        <Link to={slink.link}>{slink.name}</Link>
-                      </li>
-                    ))}
-                  </div> */}
                 </div>
               </div>
             ))}
