@@ -90,15 +90,15 @@ function AboutUs() {
           </div>
         </div>
       </section>
-      <section className="px-5 md:p-20 font-[Mulish]">
+      <section className="px-5 py-20 md:p-20 font-[Mulish]">
         <div className='flex flex-col items-center'>
           <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center mb-2'>Our values</h1>
-          <p className='text-center w-1/3'>
+          <p className='text-center md:w-1/3'>
             We're passionate about our values and a great work culture.
           </p>
         </div>
         <div className='flex justify-center mt-12'>
-          <div className='grid md:grid-cols-3 gap-5 px-20'>
+          <div className='grid md:grid-cols-3 gap-5 md:px-20'>
             <div className='p-5 h-[320px] bg-[#ffcfcfb5] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Life Assurance</h1>
