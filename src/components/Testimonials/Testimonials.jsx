@@ -11,7 +11,7 @@ function Testimonials(props) {
         </div>
         <div className='flex flex-row flex-nowrap gap-5 overflow-x-auto no-scrollbar p-5 pb-10 pt-10'>
             {TestimonialsContents.map((testimonial, index)=>(
-                <div key={index} className='flex-mine w-[330px] drop-shadow-3xl bg-white rounded-lg p-10 text-[11px] font-[Mulish]'>
+                <div key={index} className='flex-mine w-[80vw] md:w-[330px] drop-shadow-3xl bg-white rounded-lg p-5 md:p-10 text-[11px] font-[Mulish]'>
                     <p>{testimonial.text}</p>
                     <p className='mt-10 font-[900]'>{testimonial.name}</p>
                 </div>
