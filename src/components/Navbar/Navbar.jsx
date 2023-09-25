@@ -17,6 +17,12 @@ const Navbar = () => {
           </div>
         </div>
         <ul className="md:flex text-[12px] hidden items-center gap-1 font-[Mulish] font-[700]">
+          <li className="px-3">
+            <Link to="/">Customer</Link>
+          </li>
+          <li className="px-3">
+            <Link to="/">Invest in Business</Link>
+          </li>
           <NavLinks />
         </ul>
         <div className="md:block hidden">

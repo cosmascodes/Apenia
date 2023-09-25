@@ -1,23 +1,5 @@
 export const links = [
   {
-    name: "Customer",
-    submenu: true,
-    sublinks: [
-      {
-        Head: "Topwear",
-      },
-    ],
-  },
-  {
-    name: "Business",
-    submenu: true,
-    sublinks: [
-      {
-        Head: "Invest in business"
-      },
-    ],
-  },
-  {
     name: "Company",
     submenu: true,
     sublinks: [
