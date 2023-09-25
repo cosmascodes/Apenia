@@ -6,10 +6,12 @@ export const links = [
       {
         Head: "About us",
         link:"/aboutus",
-      },
-      {
+      },{
         Head: "Careers",
         link:"/careers",
+      },{
+        Head: "Blogs",
+        link:"/blogs",
       }
     ],
   },

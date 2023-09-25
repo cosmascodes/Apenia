@@ -9,7 +9,7 @@ function Testimonials(props) {
                 {props.name=="users"?"What our users say":"Employee Testimonials"}
             </h1>
         </div>
-        <div className='flex flex-row flex-nowrap gap-5 overflow-x-auto no-scrollbar p-5 pb-10 pt-10'>
+        <div className='flex flex-row md:justify-center flex-nowrap gap-5 overflow-x-auto no-scrollbar p-5 pb-10 pt-10'>
             {TestimonialsContents.map((testimonial, index)=>(
                 <div key={index} className='flex-mine w-[80vw] md:w-[330px] drop-shadow-3xl bg-white rounded-lg p-5 md:p-10 text-[11px] font-[Mulish]'>
                     <p>{testimonial.text}</p>

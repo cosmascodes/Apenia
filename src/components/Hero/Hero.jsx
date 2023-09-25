@@ -1,8 +1,7 @@
 import React from 'react'
-import appstore from "/assets/appstore.svg";
-import playstore from "/assets/playstore.svg";
 import globe from "/assets/globe.svg";
 import { HeroContents } from './HeroContents'
+import Button from '../Button/Button';
 
 function Hero() {
   return (
@@ -15,12 +14,7 @@ function Hero() {
               <p className="text-[18px] mb-5 md:w-[340px] leading-[26px]">
                 {content.Homepage.p}
               </p>
-              <div className=' flex justify-center md:justify-start h-[80px] '>
-                <div className='flex flex-row items-center '>
-                  <img src={appstore} alt="appstore" className="md:cursor-pointer h-[100px] md:ml-[-16px]"/>  
-                  <img src={playstore} alt="playstore" className="md:cursor-pointer h-[110px]  ml-[-16px]"/>    
-                </div>            
-              </div>
+              <Button name="Waitlist"/>
             </div>
           ))}
           <div className='mt-[-10vh] md:mt-[-4vh]'>
