@@ -9,7 +9,7 @@ function JoinCard() {
             <div className='w-full md:h-[22rem] bottom-0 left-0 border border-red-300 bg-red-200 absolute rounded-md drop-shadow-3xl'>
                 <div className='md:w-1/2 flex justify-center h-full flex-col p-10 font-[Mulish]'>
                     <h1 className='text-[32px] font-[900] text-primary'>
-                        The money app for Africans.
+                        Modern Banking For Africans.
                     </h1>
                     <p className='text-[14px] mb-5 mt-2'>
                         Save, spend, send and invest money across borders.

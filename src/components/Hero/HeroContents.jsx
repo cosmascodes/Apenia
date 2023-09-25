@@ -1,8 +1,8 @@
 export const HeroContents = [
     {
         Homepage:{
-            h1:"The money app for Africans.",
-            p:"Make free transfers, enjoy cashless payment options and earn interest on your savings with Kuda."
+            h1:"Modern Banking For Africans",
+            p:"Unleashing infinite banking possibilities for individuals, small businesses and emerging markets."
         },
         join:{
             h1:"Download Apenia, open an account!",
