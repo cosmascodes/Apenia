@@ -34,7 +34,13 @@ const Navbar = () => {
           </div>
         </div>
         {/* Mobile nav */}
-        <ul className={`md:hidden bg-white fixed w-full h-screen top-0 overflow-y-auto bottom-0 py-24 pl-4 ${open ? "left-0" : "left-[-100%]"} duration-300`}>
+        <ul className={`md:hidden bg-white fixed w-full h-screen top-0 overflow-y-auto bottom-0 py-24 pl-4 ${open ? "left-0" : "left-[-100%]"} duration-200`}>  
+          <li className="px-3">
+            <Link to="/">Customer</Link>
+          </li>
+          <li className="px-3">
+            <Link to="/">Invest in Business</Link>
+          </li>
           <NavLinks />
           <div className="py-5">
             <Button name="Join Apenia"/>
