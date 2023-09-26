@@ -35,10 +35,10 @@ const Navbar = () => {
         </div>
         {/* Mobile nav */}
         <ul className={`md:hidden bg-white fixed w-full h-screen top-0 overflow-y-auto bottom-0 py-24 pl-4 ${open ? "left-0" : "left-[-100%]"} duration-200`}>  
-          <li className="px-3">
+          <li className="px-3 py-4">
             <Link to="/">Customer</Link>
           </li>
-          <li className="px-3">
+          <li className="px-3 py-4">
             <Link to="/">Invest in Business</Link>
           </li>
           <NavLinks />
