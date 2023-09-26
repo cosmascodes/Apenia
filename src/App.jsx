@@ -5,6 +5,7 @@ import Join from "./pages/join";
 import Signin from "./pages/signin";
 import Careers from "./pages/careers";
 import AboutUs from "./pages/about";
+import Invest from "./pages/invest";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Main/>}></Route>
         <Route path="/join" element={<Join/>}></Route>
+        <Route path="/invest" element={<Invest/>}></Route>
         <Route path="/signin" element={<Signin/>}></Route>
         <Route path="/careers" element={<Careers/>}></Route>
         <Route path="/aboutus" element={<AboutUs/>}></Route>

@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/">Customer</Link>
           </li>
           <li className="px-3">
-            <Link to="/">Invest in Business</Link>
+            <Link to="/invest">Invest in Business</Link>
           </li>
           <NavLinks />
         </ul>
@@ -39,7 +39,7 @@ const Navbar = () => {
             <Link to="/">Customer</Link>
           </li>
           <li className="px-3 py-4">
-            <Link to="/">Invest in Business</Link>
+            <Link to="/invest">Invest in Business</Link>
           </li>
           <NavLinks />
           <div className="py-5">

@@ -14,7 +14,7 @@ function Hero() {
               <p className="text-[18px] mb-5 md:w-[340px] leading-[26px]">
                 {content.Homepage.p}
               </p>
-              <Button name="Waitlist"/>
+              <Button name="Join Waitlist"/>
             </div>
           ))}
           <div className='mt-[-10vh] md:mt-[-4vh]'>

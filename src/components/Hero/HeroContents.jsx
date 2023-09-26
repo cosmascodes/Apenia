@@ -15,6 +15,10 @@ export const HeroContents = [
         about:{
             h1:"About Apenia",
             p:"We came from frustration with excessive bank charges (for inconsistent services), now we’re here."
+        },
+        invest:{
+            h1:"Unlock Your Financial Future",
+            p:"Join the ranks of savvy investors who are seizing the moment and investing in business ventures that promise not only returns but a brighter tomorrow."
         }
     }
 ]

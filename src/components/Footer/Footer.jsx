@@ -80,27 +80,11 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h1 className='text-primary mb-4 text-[14px] font-[700]'>Lagos</h1>
+          <h1 className='text-primary mb-4 text-[14px] font-[700]'>Nairobi</h1>
           <ul>
             <li className='text-[12px]'>151 Herbert Macaulay Way, Yaba,</li>
             <li className='text-[12px]'>Lagos,</li>
             <li className='text-[12px]'>Nigeria</li>
-          </ul>
-        </div>
-        <div>
-          <h1 className='text-primary mb-4 text-[14px] font-[700]'>London</h1>
-          <ul>
-            <li className='text-[12px]'>5 New Street Square,</li>
-            <li className='text-[12px]'>London, EC4A 3TW,</li>
-            <li className='text-[12px]'>United Kingdom</li>
-          </ul>
-        </div>
-        <div>
-          <h1 className='text-primary mb-4 text-[14px] font-[700]'>Cape Town</h1>
-          <ul>
-            <li className='text-[12px]'>146 Campground Road,</li>
-            <li className='text-[12px]'>Snakepit Building, Level 4,</li>
-            <li className='text-[12px]'>Newlands, Cape Town</li>
           </ul>
         </div>
       </div>
