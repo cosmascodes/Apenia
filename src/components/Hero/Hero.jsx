@@ -18,7 +18,7 @@ function Hero() {
             </div>
           ))}
           <div className='mt-[-10vh] md:mt-[-4vh]'>
-            <img src={globe} alt="globe" className="md:cursor-pointer h-[80vh] opacity-70"/>
+            <img src={globe} alt="globe" className="md:cursor-pointer h-[80vh]"/>
           </div>          
         </div>
   )
