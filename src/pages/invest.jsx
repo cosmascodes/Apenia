@@ -41,9 +41,9 @@ function Invest() {
                 <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] md:text-[38px] text-center'>
                     Joint Investment or Chama
                 </h1>
-                <p className='text-center mt-2'>What is Apenia Group Loan?<br/> It can bank a Joint investment or Chama.</p>
+                <p className='text-center mt-5'>What is Apenia Group Loan?<br/> It can bank a Joint investment or Chama.</p>
             </div>
-            <div className='grid md:grid-cols-2 gap-20 md:w-2/3'>
+            <div className='grid md:grid-cols-2 gap-20 md:w-2/3 mt-5'>
                 <div>
                     <h1 className='font-[700] text-[22px] text-primary mb-3'>What is in for you?</h1>
                     <ul>
