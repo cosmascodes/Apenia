@@ -7,14 +7,14 @@ function JoinCard() {
     <div className='flex justify-center md:p-20'>
         <div className='w-full h-96 relative'>
             <div className='w-full md:h-[22rem] bottom-0 left-0 border border-red-300 bg-red-200 absolute rounded-md drop-shadow-3xl'>
-                <div className='md:w-1/2 absolute md:right-0 flex justify-center h-full flex-col p-10 font-[Mulish]'>
+                <div className='md:w-1/2 md:absolute md:right-0 flex justify-center h-full flex-col p-10 font-[Mulish]'>
                     <h1 className='text-[32px] font-[900] text-primary'>
                         Modern Banking For Africans.
                     </h1>
                     <p className='text-[14px] mb-5 mt-2'>
                         Save, spend, send and invest money across borders.
                     </p>
-                    <div className='w-1/3'>
+                    <div className='md:w-1/3'>
                         <Button name="Join Apenia"/>
                     </div>
                 </div>                
