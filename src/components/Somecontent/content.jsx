@@ -19,7 +19,7 @@ function Content() {
           </Slide>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:full font-[Mulish] text-center md:text-left'>
-              <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+              <h1 className='text-[28px] md:pr-40 text-primary leading-[34px] font-[900]'>
                 Borderless Cash Transfer.
               </h1>
               <p className='mb-5 mt-5 text-[14px]'>
@@ -37,7 +37,7 @@ function Content() {
           </Slide>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:w-full font-[Mulish] text-center md:text-left'>
-              <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+              <h1 className='text-[28px] md:pr-40 text-primary leading-[34px] font-[900]'>
                 Personal Budgeting and Spending.
               </h1>
               <p className='mb-5 mt-5 text-[14px]'>
@@ -56,7 +56,7 @@ function Content() {
           </Slide>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:w-full font-[Mulish] text-center md:text-left'>
-              <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+              <h1 className='text-[28px] md:pr-40 text-primary leading-[34px] font-[900]'>
                 Saving account.
               </h1>
               <p className='mb-5 mt-5 text-[14px]'>
@@ -76,7 +76,7 @@ function Content() {
           </Slide>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:full font-[Mulish] text-center md:text-left'>
-              <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+              <h1 className='text-[28px] md:pr-40 text-primary leading-[34px] font-[900]'>
                 Investments.
               </h1>
               <p className='mb-5 mt-5 text-[14px]'>
@@ -95,7 +95,7 @@ function Content() {
           </Slide>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:w-full font-[Mulish] text-center md:text-left'>
-              <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+              <h1 className='text-[28px] md:pr-40 text-primary leading-[34px] font-[900]'>
                 Global Payment(Virtual and Physical Card).
               </h1>
               <p className='mb-5 mt-5 text-[14px]'>
@@ -114,7 +114,7 @@ function Content() {
           </Slide>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:full font-[Mulish] text-center md:text-left'>
-              <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+              <h1 className='text-[28px] md:pr-40 text-primary leading-[34px] font-[900]'>
                 Multi-currency.
               </h1>
               <p className='mb-5 mt-5 text-[14px]'>
