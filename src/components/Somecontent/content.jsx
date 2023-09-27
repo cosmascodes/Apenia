@@ -14,7 +14,7 @@ function Content() {
         <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:full select-none relative flex justify-center items-center'>
-              <img src={image2} alt="logo" className="md:cursor-arrow select-none h-60" />
+              <img src={image1} alt="logo" className="md:cursor-arrow select-none h-60" />
             </div>
           </Slide>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
