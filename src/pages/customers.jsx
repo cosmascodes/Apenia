@@ -34,47 +34,6 @@ function Customers() {
                 </div>
             </div>
         </section>
-        <section className='px-5 flex flex-col items-center justify-center'>
-            <div className='mt-10 '>
-                <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center'>
-                    How it works
-                </h1>
-            </div>
-            <div className='flex justify-center mt-12'>
-            <div className='grid md:grid-cols-3 gap-5 md:px-20'>
-                <div className='p-5 h-[150px] bg-white drop-shadow-3xl rounded-lg mb-5'>
-                    <p className='text-[14px] font-[700] font-[Mulish]'>
-                        In terms of ability to pay -The loan instalment should not exceed 90% of the average monthly Chama contributions.
-                    </p>
-                </div>
-                <div className='p-5 h-[150px] bg-white drop-shadow-3xl rounded-lg mb-5'>
-                    <p className='text-[14px] font-[700] font-[Mulish]'>
-                        Chama should have been in existence for at least 3 Months. 
-                    </p>
-                </div>
-                <div className='p-5 h-[150px] bg-white drop-shadow-3xl rounded-lg mb-5'>
-                    <p className='text-[14px] font-[700] font-[Mulish]'>
-                        In addition, the Chama should be able to pay incidental costs of security perfection fees
-                    </p>
-                </div>
-                <div className='p-5 h-[150px] bg-white drop-shadow-3xl rounded-lg mb-5'>
-                    <p className='text-[14px] font-[700] font-[Mulish]'>
-                        Copies of I.D. and PINS for the officials, list of all group members, their contacts and their business activities
-                    </p>
-                </div>
-                <div className='p-5 h-[150px] bg-white drop-shadow-3xl rounded-lg mb-5'>
-                    <p className='text-[14px] font-[700] font-[Mulish]'>
-                        You can get a minimum KES. 50,000 and maximum of  1000000 Loan up to 3 times.
-                    </p>
-                </div>
-                <div className='p-5 h-[150px] bg-white drop-shadow-3xl rounded-lg mb-5'>
-                    <p className='text-[14px] font-[700] font-[Mulish]'>
-                        Loan up to 3 times Chama saving subject to appraisals.
-                    </p>
-                </div>
-            </div>
-            </div>
-        </section>
         <section>
             <Testimonials name="users"/>
         </section>

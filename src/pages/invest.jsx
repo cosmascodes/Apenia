@@ -18,7 +18,7 @@ function Invest() {
         >
         <Navbar/>
         </section>
-        <section className="px-5 md:px-20">
+        <section className="px-5 md:px-20 pt-20">
             <div className="font-[Mulish] flex flex-col md:flex-row md:justify-between justify-center text-center h-full md:p-20 md:text-left md:items-start">
                 {HeroContents.map(( content, index )=>(
                     <div key={index}>
@@ -36,82 +36,123 @@ function Invest() {
                 </div>
             </div>
         </section>
-        <section className='flex flex-col items-center justify-center'>
+        <section className='px-5 flex flex-col items-center justify-center text-center md:text-left'>
+            <div className='mb-10'>
+                <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] md:text-[38px] text-center'>
+                    Joint Investment or Chama
+                </h1>
+                <p className='text-center mt-2'>What is Apenia Group Loan?<br/> It can bank a Joint investment or Chama.</p>
+            </div>
+            <div className='grid md:grid-cols-2 gap-20 md:w-2/3'>
+                <div>
+                    <h1 className='font-[700] text-[22px] text-primary mb-3'>What is in for you?</h1>
+                    <ul>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>Favorable and affordable rates</li>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>A flexible repayment period LPO financing for group business contracts and business opportunities Members can access individual loans</li>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>Members access to Apenia affordable medical and life covers at discountedpremium rates</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 className='font-[700] text-[22px] text-primary mb-3'>How it Works</h1>
+                    <ul>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>
+                            In terms of ability to pay -The loan instalment should not exceed 90% of the average monthly Chama contributions.
+                        </li>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>
+                            Chama should have been in existence for at least 3 Months.
+                        </li>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>
+                            In addition, the Chama should be able to pay incidental costs of security perfection fees.
+                        </li>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>
+                            Copies of I.D. and PINS for the officials, list of all group members, their contacts and their business activities.
+                        </li>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>
+                            You can get a minimum KES. 50,000 and maximum of 1000000 Loan up to 3 times.
+                        </li>
+                        <li className='text-[14px] font-[700] font-[Mulish] py-2'>
+                            Loan up to 3 times Chama saving subject to appraisals.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section className='flex flex-col items-center justify-center px-5'>
             <div className='mt-20 '>
-                <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center'>
+                <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] md:text-[38px] text-center'>
                     What is in for you
                 </h1>
             </div>
-        <div className='md:px-20 flex flex-col md:w-3/4'>
-            <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
-            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
-                <div className='md:full select-none relative flex justify-center items-center'>
-                <img src={image2} alt="logo" className="md:cursor-arrow select-none h-60" />
+            <div className='md:px-20 flex flex-col md:w-3/4'>
+                <div className={`flex mt-3 md:mt-20 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
+                <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+                    <div className='md:full select-none relative flex justify-center items-center'>
+                    <img src={image2} alt="logo" className="md:cursor-arrow select-none h-60" />
+                    </div>
+                </Slide>
+                <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+                    <div className='md:full font-[Mulish] text-center md:text-left'>
+                    <h1 className='text-[26px] text-primary leading-[43px] font-[900]'>
+                        Become an Investor
+                    </h1>
+                    <p className='mb-5 mt-5 text-[12px] md:text-[14px]'>
+                    Unlock the power of passive income with Apenia Bank, where your investments grow effortlessly without the need for constant oversight. Our user-friendly platform offers attractive returns, flexible withdrawals, and unwavering transparency, making it the ideal choice for those seeking a hassle-free and profitable investment experience
+                    </p>
+                    </div>
+                </Slide>
                 </div>
-            </Slide>
-            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
-                <div className='md:full font-[Mulish] text-center md:text-left'>
-                <h1 className='text-[32px] text-primary leading-[43px] font-[900]'>
-                    Become an Investor
-                </h1>
-                <p className='mb-5 mt-5 text-[14px]'>
-                Unlock the power of passive income with Apenia Bank, where your investments grow effortlessly without the need for constant oversight. Our user-friendly platform offers attractive returns, flexible withdrawals, and unwavering transparency, making it the ideal choice for those seeking a hassle-free and profitable investment experience
-                </p>
+                <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row`}>
+                <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+                    <div className='md:full select-none relative flex justify-center items-center'>
+                    <img src={image3} alt="logo" className="md:cursor-arrow select-none h-60" />
+                    </div>
+                </Slide>
+                <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+                    <div className='md:w-full font-[Mulish] text-center md:text-left'>
+                    <h1 className='text-[26px] text-primary leading-[43px] font-[900]'>
+                        Passive income opportunity
+                    </h1>
+                    <p className='mb-5 mt-5 text-[12px] md:text-[14px]'>
+                        By investing with Apenia, you can earn passive income without having to actively manage your investments. You can choose the amount you want to invest and the duration of your investment, and WeLend will take care of the rest. With Apenia, you can earn attractive returns while supporting borrowers who need financing to achieve their goals.
+                    </p>
+                    </div>
+                </Slide>
                 </div>
-            </Slide>
+                <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
+                <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+                    <div className='md:full select-none relative flex justify-center items-center'>
+                    <img src={image2} alt="logo" className="md:cursor-arrow select-none h-60" />
+                    </div>
+                </Slide>
+                <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+                    <div className='md:full font-[Mulish] text-center md:text-left'>
+                    <h1 className='text-[26px] text-primary leading-[43px] font-[900]'>
+                        Withdrawable principal investment
+                    </h1>
+                    <p className='mb-5 mt-5 text-[12px] md:text-[14px]'>
+                        One of the key benefits of investing with Apenia is that the principal investment is withdrawable anytime upon request. We understand that circumstances can change, and you may need access to your investment funds. Apenia offers the flexibility to withdraw your principal investment at any time, without any penalty or fees. This provides peace of mind to investors, knowing that their funds are not locked in for a fixed term.
+                    </p>
+                    </div>
+                </Slide>
+                </div>
+                <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row`}>
+                <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+                    <div className='md:full select-none relative flex justify-center items-center'>
+                    <img src={image3} alt="logo" className="md:cursor-arrow select-none h-60" />
+                    </div>
+                </Slide>
+                <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+                    <div className='md:w-full font-[Mulish] text-center md:text-left'>
+                    <h1 className='text-[26px] text-primary leading-[43px] font-[900]'>
+                        Guaranteed investment transparency
+                    </h1>
+                    <p className='mb-5 mt-5 text-[12px] md:text-[14px]'>
+                        In addition, Apenia guarantees transparency on investments. We provide regular updates and reports on the performance of your investment, including the interest earned and any fees incurred. We believe that transparency is essential to building trust with our investors and ensuring that they have the information they need to make informed decisions. If you're looking for a transparent, flexible, and profitable investment opportunity, Apenia is the right choice for you.
+                    </p>
+                    </div>
+                </Slide>
+                </div>
             </div>
-            <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row`}>
-            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
-                <div className='md:full select-none relative flex justify-center items-center'>
-                <img src={image3} alt="logo" className="md:cursor-arrow select-none h-60" />
-                </div>
-            </Slide>
-            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
-                <div className='md:w-full font-[Mulish] text-center md:text-left'>
-                <h1 className='text-[32px] text-primary leading-[43px] font-[900]'>
-                    Passive income opportunity
-                </h1>
-                <p className='mb-5 mt-5 text-[14px]'>
-                    By investing with Apenia, you can earn passive income without having to actively manage your investments. You can choose the amount you want to invest and the duration of your investment, and WeLend will take care of the rest. With Apenia, you can earn attractive returns while supporting borrowers who need financing to achieve their goals.
-                </p>
-                </div>
-            </Slide>
-            </div>
-            <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
-            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
-                <div className='md:full select-none relative flex justify-center items-center'>
-                <img src={image2} alt="logo" className="md:cursor-arrow select-none h-60" />
-                </div>
-            </Slide>
-            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
-                <div className='md:full font-[Mulish] text-center md:text-left'>
-                <h1 className='text-[32px] text-primary leading-[43px] font-[900]'>
-                    Withdrawable principal investment
-                </h1>
-                <p className='mb-5 mt-5 text-[14px]'>
-                    One of the key benefits of investing with Apenia is that the principal investment is withdrawable anytime upon request. We understand that circumstances can change, and you may need access to your investment funds. Apenia offers the flexibility to withdraw your principal investment at any time, without any penalty or fees. This provides peace of mind to investors, knowing that their funds are not locked in for a fixed term.
-                </p>
-                </div>
-            </Slide>
-            </div>
-            <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row`}>
-            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
-                <div className='md:full select-none relative flex justify-center items-center'>
-                <img src={image3} alt="logo" className="md:cursor-arrow select-none h-60" />
-                </div>
-            </Slide>
-            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
-                <div className='md:w-full font-[Mulish] text-center md:text-left'>
-                <h1 className='text-[32px] text-primary leading-[43px] font-[900]'>
-                    Guaranteed investment transparency
-                </h1>
-                <p className='mb-5 mt-5 text-[14px]'>
-                    In addition, Apenia guarantees transparency on investments. We provide regular updates and reports on the performance of your investment, including the interest earned and any fees incurred. We believe that transparency is essential to building trust with our investors and ensuring that they have the information they need to make informed decisions. If you're looking for a transparent, flexible, and profitable investment opportunity, Apenia is the right choice for you.
-                </p>
-                </div>
-            </Slide>
-            </div>
-        </div>
         </section>
         <section className="px-5 md:px-20">
             <JoinCard/>
