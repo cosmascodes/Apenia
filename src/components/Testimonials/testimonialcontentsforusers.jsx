@@ -1,12 +1,12 @@
 export const TestimonialsContents = [
     {
-        name: "John Kamau",
-        text:"Never thought an app would stylish become my everyday way to bank and have access to physical cash. @kudabank is sleek"
+        name: "WeLend",
+        text:"WeLend Limited has found Apenia to be an invaluable partner in diversifying our investment portfolio. Their transparent and flexible approach has not only generated consistent returns but has also empowered us to support borrowers effectively."
     },{
-        name: "John Kamau",
-        text:"Never thought an app would stylish become my everyday way to bank and have access to physical cash. @kudabank is sleek"
-    },{
-        name: "John Kamau",
-        text:"Never thought an app would stylish become my everyday way to bank and have access to physical cash. @kudabank is sleek"
+        name: "Du-Bour Consortium",
+        text:"Du-Bour Consortium's investment experience with Apenia has been exceptional. The ease of withdrawing principal funds, coupled with Apenia's commitment to transparency, has solidified our trust in their platform as a reliable avenue for achieving our financial goals."
     }
+
+    
 ]
+
