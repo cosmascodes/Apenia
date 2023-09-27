@@ -18,7 +18,7 @@ function AboutUs() {
       >
         <Navbar/>
       </section>
-      <section className="px-5 md:px-20">
+      <section className="px-5 md:px-20 pt-20 md:pt-10">
         <div className="font-[Mulish] flex flex-col md:flex-row md:justify-between justify-center text-center h-full md:p-20 md:text-left md:items-start">
             {HeroContents.map(( content, index )=>(
               <div key={index}>
@@ -38,7 +38,7 @@ function AboutUs() {
       </section>
       <section className='flex justify-center'>
         <div className='md:px-20 flex flex-col md:w-3/4'>
-          <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
+          <div className={`flex mt-10 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
             <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
               <div className='md:full select-none relative flex justify-center items-center'>
                 <img src={image2} alt="logo" className="md:cursor-arrow select-none h-60" />
@@ -103,43 +103,43 @@ function AboutUs() {
             <div className='p-5 h-[320px] bg-[#ffcfcfb5] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Professionalism</h1>
-                <p className='text-[11px]'>Choose our services for a seamless experience marked by unwavering professionalism, where every interaction is characterized by expertise, reliability, and a commitment to delivering excellence in every aspect of our partnership.</p>
+                <p className='text-[13px] md:text-[11px]'>Choose our services for a seamless experience marked by unwavering professionalism, where every interaction is characterized by expertise, reliability, and a commitment to delivering excellence in every aspect of our partnership.</p>
               </div>
             </div>
             <div className='p-5 h-[320px] bg-[#d8d9cfad] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Integrity</h1>
-                <p className='text-[11px]'>Experience the assurance of unwavering integrity in every interaction with us – where honesty, transparency, and ethical conduct are not just values we uphold, but the foundation of our commitment to building trust and enduring partnerships with our customers..</p>
+                <p className='text-[13px] md:text-[11px]'>Experience the assurance of unwavering integrity in every interaction with us – where honesty, transparency, and ethical conduct are not just values we uphold, but the foundation of our commitment to building trust and enduring partnerships with our customers..</p>
               </div>
             </div>
             <div className='p-5 h-[320px] bg-[#ffcdb88e] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Creativity and innovation</h1>
-                <p className='text-[11px]'>Embark on a journey with us that celebrates creativity and innovation at its core. We are dedicated to pushing boundaries, embracing fresh ideas, and pioneering inventive solutions to not only meet your needs but exceed expectations, ensuring a partnership that thrives on continuous progress and ingenuity..</p>
+                <p className='text-[13px] md:text-[11px]'>Embark on a journey with us that celebrates creativity and innovation at its core. We are dedicated to pushing boundaries, embracing fresh ideas, and pioneering inventive solutions to not only meet your needs but exceed expectations, ensuring a partnership that thrives on continuous progress and ingenuity..</p>
               </div>
             </div>
             <div className='p-5 h-[320px] bg-[#ecd2dc] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Team work</h1>
-                <p className='text-[11px]'>Elevate your experience with us as we embrace the power of teamwork. Our collaborative spirit ensures that you benefit from a collective synergy, where diverse skills and perspectives converge to deliver solutions that are greater than the sum of their parts. Together, we achieve more, setting the stage for shared success and mutual growth.</p>
+                <p className='text-[13px] md:text-[11px]'>Elevate your experience with us as we embrace the power of teamwork. Our collaborative spirit ensures that you benefit from a collective synergy, where diverse skills and perspectives converge to deliver solutions that are greater than the sum of their parts. Together, we achieve more, setting the stage for shared success and mutual growth.</p>
               </div>
             </div>
             <div className='p-5 h-[320px] bg-[#adc4ce6d] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Unity of purpose</h1>
-                <p className='text-[11px]'>Join us in our pursuit of excellence, where unity of purpose reigns supreme. Every effort, every decision, and every achievement is driven by a shared commitment to a common goal. Together, we navigate challenges, celebrate victories, and forge a path toward success with a singular focus that unites us in purpose and propels us forward as a cohesive and determined team.</p>
+                <p className='text-[13px] md:text-[11px]'>Join us in our pursuit of excellence, where unity of purpose reigns supreme. Every effort, every decision, and every achievement is driven by a shared commitment to a common goal. Together, we navigate challenges, celebrate victories, and forge a path toward success with a singular focus that unites us in purpose and propels us forward as a cohesive and determined team.</p>
               </div>
             </div>
             <div className='p-5 h-[320px] bg-[#d1eeffaf] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Respect and dignity for the customers</h1>
-                <p className='text-[11px]'>Experience service that goes beyond transactions – with us, it's about unwavering respect and dignity for every customer. We prioritize your unique needs, ensuring that every interaction reflects a commitment to understanding, valuing, and honoring your perspective. Your satisfaction is not just a goal; it's a reflection of the genuine respect and dignity we bring to every customer relationship.</p>
+                <p className='text-[13px] md:text-[11px]'>Experience service that goes beyond transactions – with us, it's about unwavering respect and dignity for every customer. We prioritize your unique needs, ensuring that every interaction reflects a commitment to understanding, valuing, and honoring your perspective. Your satisfaction is not just a goal; it's a reflection of the genuine respect and dignity we bring to every customer relationship.</p>
               </div>
             </div>
             <div className='p-5 h-[320px] bg-[#e2d1ffaf] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Effective corporate governance</h1>
-                <p className='text-[11px]'>Choose confidence and stability with our commitment to effective corporate governance. Our organization is built on a foundation of transparency, accountability, and strategic decision-making. With a governance structure that prioritizes ethical practices and prudent management, we ensure the long-term success of our enterprise, earning the trust and confidence of our stakeholders.</p>
+                <p className='text-[13px] md:text-[11px]'>Choose confidence and stability with our commitment to effective corporate governance. Our organization is built on a foundation of transparency, accountability, and strategic decision-making. With a governance structure that prioritizes ethical practices and prudent management, we ensure the long-term success of our enterprise, earning the trust and confidence of our stakeholders.</p>
               </div>
             </div>
           </div>
