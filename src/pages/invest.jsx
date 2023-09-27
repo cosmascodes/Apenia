@@ -19,22 +19,22 @@ function Invest() {
         <Navbar/>
         </section>
         <section className="px-5 md:px-20">
-        <div className="font-[Mulish] flex flex-col md:flex-row md:justify-between justify-center text-center h-full md:p-20 md:text-left md:items-start">
-            {HeroContents.map(( content, index )=>(
-                <div key={index}>
-                <h1 className="mb-1 text-primary font-[900] py-4 text-[35px] md:text-5xl md:w-[420px]">
-                    {content.invest.h1}
-                </h1>
-                <p className="text-[18px] mb-5 md:w-[340px]">
-                    {content.invest.p}
-                </p>
-                <Button name="Invest in Business"/>
+            <div className="font-[Mulish] flex flex-col md:flex-row md:justify-between justify-center text-center h-full md:p-20 md:text-left md:items-start">
+                {HeroContents.map(( content, index )=>(
+                    <div key={index}>
+                    <h1 className="mb-1 text-primary font-[900] py-4 text-[35px] md:text-5xl md:w-[420px]">
+                        {content.invest.h1}
+                    </h1>
+                    <p className="text-[18px] mb-5 md:w-[340px]">
+                        {content.invest.p}
+                    </p>
+                    <Button name="Invest in Business"/>
+                    </div>
+                ))}
+                <div className='mt-[-10vh] flex items-start'>
+                    <img src={team} alt="team" className="md:cursor-pointer h-[80vh] opacity-80"/>
                 </div>
-            ))}
-            <div className='mt-[-10vh] flex items-start'>
-                <img src={team} alt="team" className="md:cursor-pointer h-[80vh] opacity-80"/>
             </div>
-        </div>
         </section>
         <section className='flex flex-col items-center justify-center'>
             <div className='mt-20 '>

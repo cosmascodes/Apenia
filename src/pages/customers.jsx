@@ -34,7 +34,7 @@ function Customers() {
             </div>
         </div>
         </section>
-        <section className='flex flex-col items-center justify-center'>
+        <section className='px-5 flex flex-col items-center justify-center'>
             <div className='mt-10 '>
                 <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center'>
                     How it works

@@ -43,7 +43,9 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <div className="py-5">
-            <Button name="Join Apenia"/>
+            <Link to="/join">
+              <Button name="Join Apenia"/>
+            </Link>
           </div>
         </ul>
       </div>
