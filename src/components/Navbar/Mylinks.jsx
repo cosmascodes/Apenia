@@ -21,12 +21,15 @@ export const links = [
     sublinks: [
       {
         Head: "Get Help",
+        link:"/contact"
       },
       {
         Head: "FAQs",
+        link:"/contact"
       },
       {
         Head: "Contact Us",
+        link:"/contact"
       },
     ],
   }

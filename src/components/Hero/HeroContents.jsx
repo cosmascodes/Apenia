@@ -23,6 +23,10 @@ export const HeroContents = [
         customer:{
             h1:"At Apenia You Matter Most",
             p:"Elevate Your Banking Experience – Because You Deserve More."
+        },
+        contact:{
+            h1:"Connect with Us",
+            p:"Your Questions, Our Commitment – Reach Out for Seamless Support."
         }
     }
 ]
