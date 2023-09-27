@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         <ul className="md:flex text-[12px] hidden items-center gap-1 font-[Mulish] font-[700]">
           <li className="px-3">
-            <Link to="/">Customer</Link>
+            <Link to="/customers">Customer</Link>
           </li>
           <li className="px-3">
             <Link to="/invest">Invest in Business</Link>
@@ -36,7 +36,7 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul className={`md:hidden bg-white fixed w-full h-screen top-0 overflow-y-auto bottom-0 py-24 pl-4 ${open ? "left-0" : "left-[-100%]"} duration-200`}>  
           <li className="px-3 py-4">
-            <Link to="/">Customer</Link>
+            <Link to="/customers">Customer</Link>
           </li>
           <li className="px-3 py-4">
             <Link to="/invest">Invest in Business</Link>

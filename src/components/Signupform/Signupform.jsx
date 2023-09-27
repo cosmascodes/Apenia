@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Signupform() {
   return (
-    <div className='px-5 py-20 md:px-20 md:py-10 font-[Mulish]'>
-        <form className='flex flex-col md:w-1/3 bg-white drop-shadow-3xl p-10 rounded-lg border border-slate-200'>
+    <div className='px-5 py-20 md:px-20 md:py-10 font-[Mulish] md:w-[40%]'>
+        <form className='flex flex-col w-full bg-white drop-shadow-3xl p-10 rounded-lg border border-slate-200'>
             <div className='flex flex-col'>
                 <h1 className='text-[17px] font-[900]'>Sign In to Apenia</h1>
                 <p className='text-[13px] mb-2 mt-2 text-gray-500'>To sign in, please type in the email address linked to your Apenia account.</p>

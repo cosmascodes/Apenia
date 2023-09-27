@@ -23,6 +23,11 @@ const Main = () => {
         <Cards/>
       </section>
       <section className="px-5 md:px-20">
+            <div className='mt-40 '>
+                <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center'>
+                  What Apenia account can do
+                </h1>
+            </div>
         <Content/>
       </section>
       <section>

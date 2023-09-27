@@ -5,8 +5,8 @@ export const HeroContents = [
             p:"Unleashing infinite banking possibilities for individuals, small businesses and emerging markets."
         },
         join:{
-            h1:"Download Apenia, open an account!",
-            p:"Scan the QR code below with your phone camera to download the Kuda app."
+            h1:"Join the Financial Revolution!",
+            p:"Empowering Your Prosperity, One Account at a Time."
         },
         careers:{
             h1:"Join our journey...",
@@ -19,6 +19,10 @@ export const HeroContents = [
         invest:{
             h1:"Unlock Your Financial Future",
             p:"Join the ranks of savvy investors who are seizing the moment and investing in business ventures that promise not only returns but a brighter tomorrow."
+        },
+        customer:{
+            h1:"At Apenia You Matter Most",
+            p:"Elevate Your Banking Experience – Because You Deserve More."
         }
     }
 ]

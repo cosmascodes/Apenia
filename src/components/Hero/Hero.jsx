@@ -2,6 +2,7 @@ import React from 'react'
 import globe from "/assets/globe.svg";
 import { HeroContents } from './HeroContents'
 import Button from '../Button/Button';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -14,7 +15,9 @@ function Hero() {
               <p className="text-[18px] mb-5 md:w-[340px] leading-[26px]">
                 {content.Homepage.p}
               </p>
-              <Button name="Join Waitlist"/>
+              <Link to="http://waitwhile.com/locations/apenia">
+                <Button name="Join Waitlist"/>
+              </Link>
             </div>
           ))}
           <div className='mt-[-10vh] md:mt-[-4vh]'>

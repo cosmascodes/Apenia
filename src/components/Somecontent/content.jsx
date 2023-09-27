@@ -4,15 +4,14 @@ import image2 from "/assets/vg5.svg"
 import image3 from "/assets/vg3.svg"
 import image4 from "/assets/vg4.svg"
 import image5 from "/assets/vg5.svg"
-import image6 from "/assets/vg6.svg"
-import { Link } from 'react-router-dom'
+import card from "/assets/card.svg"
 import { Slide } from "react-awesome-reveal";
 
 
 function Content() {
   return (
     <div className='md:px-20 flex flex-col'>
-        <div className={`flex mt-40 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
+        <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:full select-none relative flex justify-center items-center'>
               <img src={image2} alt="logo" className="md:cursor-arrow select-none h-60" />
@@ -91,7 +90,7 @@ function Content() {
         <div className={`flex mt-40 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
             <div className='md:w-full select-none relative flex justify-center items-center'>
-              <img src={image4} alt="logo" className="md:cursor-arrow select-none h-60" />
+              <img src={card} alt="logo" className="md:cursor-arrow select-none h-2/3 md:-mt-20" />
             </div>
           </Slide>
           <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>

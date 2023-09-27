@@ -11,7 +11,9 @@ function Signin() {
      >
        <Navbar/>
      </section>
+     <section className='flex justify-center items-center'>
       <Signupform/>
+    </section>
     </div>
   )
 }
