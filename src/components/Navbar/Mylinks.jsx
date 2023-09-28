@@ -1,5 +1,26 @@
 export const links = [
   {
+    name: "Customer",
+    submenu: true,
+    sublinks: [
+      {
+        Head: "Save",
+        link:"/customers",
+      },{
+        Head: "Transfer and Spend",
+        link:"/customers",
+      },{
+        Head: "Invest",
+        link:"/customers",
+      },{
+        Head: "Borrow",
+        link:"/customers",
+      },{
+        Head: "Apenia Card",
+        link:"/customers",
+      }
+    ],
+  },{
     name: "Company",
     submenu: true,
     sublinks: [

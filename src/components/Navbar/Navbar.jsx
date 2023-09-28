@@ -17,13 +17,10 @@ const Navbar = () => {
           </div>
         </div>
         <ul className="md:flex text-[12px] hidden items-center gap-1 font-[Mulish] font-[700]">
-          <li className="px-3">
-            <Link to="/customers">Customer</Link>
-          </li>
+          <NavLinks />
           <li className="px-3">
             <Link to="/invest">Invest in Business</Link>
           </li>
-          <NavLinks />
         </ul>
         <div className="md:block hidden">
           <div className="flex text-[12px] font-[700] items-center gap-4">
@@ -34,14 +31,11 @@ const Navbar = () => {
           </div>
         </div>
         {/* Mobile nav */}
-        <ul className={`md:hidden bg-white fixed w-full h-screen top-0 overflow-y-auto bottom-0 py-24 pl-4 ${open ? "left-0" : "left-[-100%]"} duration-200`}>  
-          <li className="px-3 py-4">
-            <Link to="/customers">Customer</Link>
-          </li>
-          <li className="px-3 py-4">
+        <ul className={`md:hidden bg-white fixed w-full h-screen top-0 overflow-y-auto bottom-0 py-24 pl-4 ${open ? "left-0" : "left-[-100%]"} duration-200`}>
+          <NavLinks />
+          <li className="px-3">
             <Link to="/invest">Invest in Business</Link>
           </li>
-          <NavLinks />
           <div className="py-5">
             <Link to="/join">
               <Button name="Join Apenia"/>
