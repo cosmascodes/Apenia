@@ -70,7 +70,7 @@ function Customers() {
                     </Slide>
                     <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
                     <div className='md:full font-[Mulish] text-center md:text-left'>
-                        <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+                        <h1 className='text-[32px] md:pr-20 text-primary leading-[38px] font-[900]'>
                             Save and Grow Your Wealth
                         </h1>
                         <p className='mb-5 mt-5 md:w-[315px] text-[14px]'>
@@ -87,7 +87,7 @@ function Customers() {
                     </Slide>
                     <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
                     <div className='md:w-full font-[Mulish] text-center md:text-left'>
-                        <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+                        <h1 className='text-[32px] md:pr-20 text-primary leading-[38px] font-[900]'>
                             Achieve Your Money Goals Easily
                         </h1>
                         <p className='mb-5 mt-5 md:w-[315px] text-[14px]'>
@@ -104,7 +104,7 @@ function Customers() {
                     </Slide>
                     <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
                     <div className='md:full font-[Mulish] text-center md:text-left'>
-                        <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+                        <h1 className='text-[32px] md:pr-20 text-primary leading-[38px] font-[900]'>
                             Effortless Savings Made Rea
                         </h1>
                         <p className='mb-5 mt-5 md:w-[315px] text-[14px]'>
