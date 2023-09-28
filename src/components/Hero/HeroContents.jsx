@@ -24,6 +24,10 @@ export const HeroContents = [
             h1:"Save More as you spend",
             p:"Master the rule of financial wellness! Saving money may not feel like your strong suit. It’s easy to get off track and save less than you intended when you’re not consistently saving a portion of every paycheck. But that doesn’t mean you can’t get ahead of the savings game."
         },
+        transfer:{
+            h1:"Access your funds anywhere on the go",
+            p:"Enjoy the freedom to access your funds anytime, anywhere, even while on the move, with our mobile banking solutions, ensuring convenience at your fingertips."
+        },
         contact:{
             h1:"Connect with Us",
             p:"Your Questions, Our Commitment – Reach Out for Seamless Support."

@@ -5,19 +5,19 @@ export const links = [
     sublinks: [
       {
         Head: "Save",
-        link:"/customers",
+        link:"/save",
       },{
         Head: "Transfer and Spend",
-        link:"/customers",
+        link:"/transfer",
       },{
         Head: "Invest",
-        link:"/customers",
+        link:"/save",
       },{
         Head: "Borrow",
-        link:"/customers",
+        link:"/save",
       },{
         Head: "Apenia Card",
-        link:"/customers",
+        link:"/save",
       }
     ],
   },{

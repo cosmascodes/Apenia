@@ -8,6 +8,7 @@ import AboutUs from "./pages/about";
 import Invest from "./pages/invest";
 import Customers from "./pages/customers";
 import Contactus from "./pages/contactus";
+import Transfer from "./pages/transfer";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
         <Route path="/" element={<Main/>}></Route>
         <Route path="/join" element={<Join/>}></Route>
         <Route path="/invest" element={<Invest/>}></Route>
-        <Route path="/customers" element={<Customers/>}></Route>
+        <Route path="/save" element={<Customers/>}></Route>
+        <Route path="/transfer" element={<Transfer/>}></Route>
         <Route path="/contact" element={<Contactus/>}></Route>
         <Route path="/signin" element={<Signin/>}></Route>
         <Route path="/careers" element={<Careers/>}></Route>
