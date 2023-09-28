@@ -37,8 +37,10 @@ function Footer() {
         <div>
           <h1 className='text-[14px] font-[700] mb-2 text-primary'>Customer</h1>
           <ul className='text-[12px]'>
-            <li className='pt-4'>Testimonials</li>
-            <li className='pt-4'>Joint Apenia</li>
+            <li className='pt-4'>Save</li>
+            <li className='pt-4'>Transfer & Spend</li>
+            <li className='pt-4'>Invest</li>
+            <li className='pt-4'>Apenia card</li>
           </ul>
         </div>
         <div>
