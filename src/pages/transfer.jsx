@@ -115,9 +115,6 @@ function Transfer() {
                 </div>
             </div>
         </section>
-        <section>
-            <Testimonials name="users"/>
-        </section>
         <section className="px-5 md:px-20">
             <JoinCard/>
         </section>

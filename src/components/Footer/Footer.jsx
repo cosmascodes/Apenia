@@ -57,16 +57,28 @@ function Footer() {
           <span className='text-[14px] text-primary font-[700] underline'>info@apenia.com</span>
           <div className='mb-5 flex flex-row gap-4 mt-[1.2rem]'>
             <div className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
+              
+            <Link to="https://twitter.com/ApeniaBank" className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
               <ion-icon name="logo-twitter"></ion-icon>
+            </Link>
+              
             </div>
             <div className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
+              
+            <Link to="https://www.instagram.com/apenia_mfb/" className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
               <ion-icon name="logo-instagram"></ion-icon>
+            </Link>
+            
             </div>
-            <div className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
+            <div className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>              
+            <Link to="https://www.facebook.com/apeniabank/" className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
               <ion-icon name="logo-facebook"></ion-icon>
+            </Link>
             </div>
-            <div className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
-              <ion-icon name="logo-youtube"></ion-icon>
+            <div className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>              
+            <Link to="https://info@apenia.com" className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
+              <ion-icon name="mail-outline"></ion-icon>
+            </Link>
             </div>
             <Link to="http://linkedin.com/company/apenia-mfb/" className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
               <ion-icon name="logo-linkedin"></ion-icon>
