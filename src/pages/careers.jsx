@@ -132,9 +132,6 @@ function Careers() {
           </div>
         </div>
       </section>
-      <section>
-        <Testimonials name="employee"/>
-      </section>
       <section className="mt-14 mb-14 px-2 md:px-20 border-t border-t-slate-200">
         <Footer/>
       </section>
