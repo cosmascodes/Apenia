@@ -89,6 +89,10 @@ function Footer() {
         </div>
         <div>
           <h1 className='text-primary mb-4 text-[14px] font-[700]'>Nairobi</h1>
+          <div className='text-primary font-[Mulish] text-[14px] font-[700] flex flex-col'>
+            <span>Chandaria Incubation and innovation Center,</span>
+            <span>Thika Road</span>
+          </div>
         </div>
       </div>
       <span className='px-5 text-[12px] font-[Mulish]'>© 2023 Apenia Technologies Ltd. All rights reserved.</span>
