@@ -36,7 +36,7 @@ function Invest() {
                 </div>
             </div>
         </section>
-        <section className='px-5 flex flex-col items-center justify-center text-center md:text-left'>
+        {/* <section className='px-5 flex flex-col items-center justify-center text-center md:text-left'>
             <div className='mb-10'>
                 <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] md:text-[38px] text-center'>
                     Joint Investment or Chama
@@ -76,7 +76,7 @@ function Invest() {
                     </ul>
                 </div>
             </div>
-        </section>
+        </section> */}
         <section className='flex flex-col items-center justify-center px-5'>
             <div className='mt-20 '>
                 <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] md:text-[38px] text-center'>
