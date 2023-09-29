@@ -13,6 +13,7 @@ function Cards() {
             <img src={openaccount} alt="open account" className="md:cursor-pointer h-4"/>
           </div>
           <div className='mt-2'>
+                <h1 className='text-[16px] font-[900] text-primary mb-3'>Empower Yourself</h1>
             <p className='font-[500] text-[13px]'>Seamlessly Open Your Apenia Account Experience empowerment by quickly self-registering for modern banking solutions. </p>
           </div>
         </div>
@@ -21,6 +22,7 @@ function Cards() {
             <img src={download} alt="open account" className="md:cursor-pointer h-4"/>
           </div>
           <div className='mt-2'>
+                <h1 className='text-[16px] font-[900] text-primary mb-3'>Download Apenia App</h1>
             <p className='font-[500] text-[13px]'>Access Apenia through our user-friendly app or by dialing *xxxx# for convenient account setup.</p>
           </div>
         </div>
@@ -29,6 +31,7 @@ function Cards() {
             <img src={access} alt="open account" className="md:cursor-pointer h-4"/>
           </div>
           <div className='mt-2'>
+                <h1 className='text-[16px] font-[900] text-primary mb-3'>Unleash the Power of 24/7 Banking</h1>
             <p className='font-[500] text-[13px]'>Enjoy round-the-clock banking convenience with Apenia, giving you the freedom to manage your finances whenever you need.</p>
           </div>
         </div>
@@ -37,6 +40,7 @@ function Cards() {
             <img src={interest} alt="open account" className="md:cursor-pointer h-4"/>
           </div>
           <div className='mt-2'>
+                <h1 className='text-[16px] font-[900] text-primary mb-3'>Grow Your Savings</h1>
             <p className='font-[500] text-[13px]'>Earn Competitive Interest Maximize your financial potential with Apenia by earning competitive interest rates on your account balances. </p>
           </div>
         </div>
@@ -45,6 +49,7 @@ function Cards() {
             <img src={credit} alt="open account" className="md:cursor-pointer h-4"/>
           </div>
           <div className='mt-2'>
+                <h1 className='text-[16px] font-[900] text-primary mb-3'>Unlock Your Financial Goals</h1>
             <p className='font-[500] text-[13px]'>Access Credit Apenia offers access to credit facilities that can help you achieve your financial aspirations without the hassle.</p>
           </div>
         </div>
