@@ -20,6 +20,11 @@ const Main = () => {
         <Hero/>
       </section>
       <section className="px-5 md:px-20">
+            <div className='mt-40 '>
+                <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center'>
+                  What is in for you
+                </h1>
+            </div>
         <Cards/>
       </section>
       <section className="px-5 md:px-20">
