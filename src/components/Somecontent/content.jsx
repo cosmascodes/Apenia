@@ -4,7 +4,7 @@ import image2 from "/assets/vg5.svg"
 import image3 from "/assets/vg3.svg"
 import image4 from "/assets/vg4.svg"
 import image5 from "/assets/vg5.svg"
-import card from "/assets/phone.svg"
+import card from "/assets/phone.png"
 import { Slide } from "react-awesome-reveal";
 
 
