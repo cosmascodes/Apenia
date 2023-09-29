@@ -47,14 +47,16 @@ function Footer() {
           <h1 className='text-[14px] font-[700] mb-2 text-primary'>Invest in Business</h1>
           <ul className='text-[12px]'>
             <li className='pt-4'>Become an Investor</li>
-            <li className='pt-4'>Joint investment or Chama</li>
           </ul>
         </div>
       </div>
       <div className='p-5 mt-5 font-[Mulish] md:grid grid-cols-4 gap-10 mb-10'>
         <div>
           <h1 className='text-primary mb-4 text-[14px] font-[700]'>Contact</h1>
-          <span className='text-[14px] text-primary font-[700] underline'>info@apenia.com</span>
+          <div className='flex flex-col'>
+            <span className='text-[14px] text-primary font-[700] underline'>+254 714 99 11 11</span>
+            <span className='text-[14px] text-primary font-[700] underline'>info@apenia.com</span>
+          </div>
           <div className='mb-5 flex flex-row gap-4 mt-[1.2rem]'>
             <div className='w-8 h-8 rounded-full border border-slate-400 flex justify-center items-center text-[1.2rem]'>
               

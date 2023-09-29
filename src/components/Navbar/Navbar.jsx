@@ -24,7 +24,7 @@ const Navbar = () => {
         </ul>
         <div className="md:block hidden">
           <div className="flex text-[12px] font-[700] items-center gap-4">
-            <Link to="/signin">Sign in</Link>
+            <Link to="http://waitwhile.com/locations/apenia">Sign in</Link>
             <Link to="/join">
               <Button name="Join Apenia"/>
             </Link>

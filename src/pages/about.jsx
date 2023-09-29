@@ -36,8 +36,20 @@ function AboutUs() {
             </div>
         </div>
       </section>
+      <section className='p-5 md:p-20 py-0 flex justify-center'>
+        <div className='md:w-1/2 md:text-center font-[Mulish]'>
+            <h1 className='mb-4 font-[900] text-primary text-[32px]'>About Apenia</h1>
+            <p className='text-[14px] leading-8'>
+              Apenia LLC is a Pan-African digital bank that aims to transform the financial landscape for African youth and informal micro-enterprises. By utilizing technology, creativity, and community, we are revolutionizing the African financial industry.
+              We empower young people and traders by providing them with access to the financial products they deserve, equipping them with the confidence and resources to achieve their dreams. Our platform goes beyond banking wealth; it fosters individual worth and believes in the immense potential of humans to drive progress in the world.
+            </p>
+        </div>
+      </section>
       <section className='flex justify-center'>
         <div className='md:px-20 flex flex-col md:w-3/4'>
+        <div className='flex flex-col items-center'>
+          <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center mb-2'>Our Philosophy</h1>
+        </div>
           <div className={`flex mt-10 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
             <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
               <div className='md:full select-none relative flex justify-center items-center'>
@@ -47,7 +59,41 @@ function AboutUs() {
             <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
               <div className='md:full font-[Mulish] text-center md:text-left'>
                 <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
-                  Our mission
+                  Mission
+                </h1>
+                <p className='mb-5 mt-5 md:w-[315px] text-[14px]'>
+                Pioneering the banking industry with unwavering transparency and fairness, fostering equitable returns for both savers and borrowers, streamlining financial processes, and empowering individuals to realize their financial aspirations.
+                </p>
+              </div>
+            </Slide>
+          </div>
+          <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row`}>
+            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+              <div className='md:full select-none relative flex justify-center items-center'>
+                <img src={image3} alt="logo" className="md:cursor-arrow select-none h-60" />
+              </div>
+            </Slide>
+            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+              <div className='md:w-full font-[Mulish] text-center md:text-left'>
+                <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+                  Vision
+                </h1>
+                <p className='mb-5 mt-5 md:w-[315px] text-[14px]'>
+                  To be the most preferred digital micro bank for Africans, leading in consumer investment opportunities while fostering trust and financial empowerment.
+                </p>
+              </div>
+            </Slide>
+          </div>
+          <div className={`flex mt-20 gap-10 justify-between flex-col-reverse md:flex-row-reverse`}>
+            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+              <div className='md:full select-none relative flex justify-center items-center'>
+                <img src={image4} alt="logo" className="md:cursor-arrow select-none h-60" />
+              </div>
+            </Slide>
+            <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
+              <div className='md:full font-[Mulish] text-center md:text-left'>
+                <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
+                  Purpose
                 </h1>
                 <p className='mb-5 mt-5 md:w-[315px] text-[14px]'>
                   We're giving Africans around the world the tools to make better financial decisions and create their own financial freedom.
@@ -64,10 +110,10 @@ function AboutUs() {
             <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
               <div className='md:w-full font-[Mulish] text-center md:text-left'>
                 <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
-                  Our vision
+                  Tagline
                 </h1>
                 <p className='mb-5 mt-5 md:w-[315px] text-[14px]'>
-                  We're giving Africans around the world the tools to make better financial decisions and create their own financial freedom.
+                Where banking meets convenience.
                 </p>
               </div>
             </Slide>
@@ -81,10 +127,10 @@ function AboutUs() {
             <Slide direction="up" triggerOnce delay={2} cascade damping={1.5} className='md:w-1/2'>
               <div className='md:full font-[Mulish] text-center md:text-left'>
                 <h1 className='text-[32px] md:pr-40 text-primary leading-[43px] font-[900]'>
-                  Our purpose
+                  Positioning Statement
                 </h1>
                 <p className='mb-5 mt-5 md:w-[315px] text-[14px]'>
-                  We're giving Africans around the world the tools to make better financial decisions and create their own financial freedom.
+                  Your Gateway to Limitless Financial Potential in the Digital Age.
                 </p>
               </div>
             </Slide>
@@ -100,12 +146,6 @@ function AboutUs() {
         </div>
         <div className='flex justify-center mt-12'>
           <div className='grid md:grid-cols-3 gap-5 md:px-20'>
-            <div className='p-5 h-[320px] bg-[#ffcfcfb5] drop-shadow-3xl rounded-lg mb-5'>
-              <div>
-                <h1 className='text-[24px] font-[900] text-primary mb-3'>Professionalism</h1>
-                <p className='text-[13px] md:text-[11px]'>Choose our services for a seamless experience marked by unwavering professionalism, where every interaction is characterized by expertise, reliability, and a commitment to delivering excellence in every aspect of our partnership.</p>
-              </div>
-            </div>
             <div className='p-5 h-[320px] bg-[#d8d9cfad] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Integrity</h1>
@@ -124,7 +164,7 @@ function AboutUs() {
                 <p className='text-[13px] md:text-[11px]'>Elevate your experience with us as we embrace the power of teamwork. Our collaborative spirit ensures that you benefit from a collective synergy, where diverse skills and perspectives converge to deliver solutions that are greater than the sum of their parts. Together, we achieve more, setting the stage for shared success and mutual growth.</p>
               </div>
             </div>
-            <div className='p-5 h-[320px] bg-[#adc4ce6d] drop-shadow-3xl rounded-lg mb-5'>
+            {/* <div className='p-5 h-[320px] bg-[#adc4ce6d] drop-shadow-3xl rounded-lg mb-5'>
               <div>
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Unity of purpose</h1>
                 <p className='text-[13px] md:text-[11px]'>Join us in our pursuit of excellence, where unity of purpose reigns supreme. Every effort, every decision, and every achievement is driven by a shared commitment to a common goal. Together, we navigate challenges, celebrate victories, and forge a path toward success with a singular focus that unites us in purpose and propels us forward as a cohesive and determined team.</p>
@@ -141,7 +181,7 @@ function AboutUs() {
                 <h1 className='text-[24px] font-[900] text-primary mb-3'>Effective corporate governance</h1>
                 <p className='text-[13px] md:text-[11px]'>Choose confidence and stability with our commitment to effective corporate governance. Our organization is built on a foundation of transparency, accountability, and strategic decision-making. With a governance structure that prioritizes ethical practices and prudent management, we ensure the long-term success of our enterprise, earning the trust and confidence of our stakeholders.</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
