@@ -1,3 +1,13 @@
+
+
+import ig from "/instagram.png";
+import twitter from "/twitter.png";
+import linkedin from "/linkedin.png";
+import facebook from "/facebook.png";
+import email from "/email.png";
+
+
+
 const Footer = () => {
   return (
     <footer className="bg-blackTheme bg-hero-wave bg-cover bg-center pt-12 md:pt-24 px-6 text-white flex flex-col justify-center items-center">
@@ -123,12 +133,12 @@ const Footer = () => {
           <div className="flex flex-row">
             <a href="https://twitter.com/ApeniaBank" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
               <img
-                src="/images/twitter.png"
+                src={twitter}
                 alt="social icon"
                 className="h-[25px] w-[25px]"
               />
             </a>
-            <a href="https://www.instagram.com/apenia_mfb/" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
+            <a href={ig} className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
               <img
                 src="/images/instagram.png"
                 alt="social icon"
@@ -137,21 +147,21 @@ const Footer = () => {
             </a>
             <a href="https://www.facebook.com/apeniabank/" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
               <img
-                src="/images/facebook.png"
+                src={facebook}
                 alt="social icon"
                 className="h-[25px] w-[25px]"
               />
             </a>
             <a href="https://info@apenia.com" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
               <img
-                src="/images/email.png"
+                src={email}
                 alt="social icon"
                 className="h-[25px] w-[25px]"
               />
             </a>
             <a href="https://linkedin.com/company/apenia-mfb/" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
               <img
-                src="/images/linkedIn.png"
+                src={linkedin}
                 alt="social icon"
                 className="h-[25px] w-[25px]"
               />
