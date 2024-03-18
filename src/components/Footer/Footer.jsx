@@ -2,7 +2,7 @@
 
 import ig from "/assets/instagram.png";
 import twitter from "/assets/twitter.png";
-import linkedin from "/assets/linkedin.png";
+import linkedin from "/assets/linkedIn.png";
 import facebook from "/assets/facebook.png";
 import email from "/assets/email.png";
 
@@ -138,9 +138,9 @@ const Footer = () => {
                 className="h-[25px] w-[25px]"
               />
             </a>
-            <a href={ig} className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
+            <a href="https://www.instagram.com/apenia_mfb/" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
               <img
-                src="/images/instagram.png"
+                src={ig}
                 alt="social icon"
                 className="h-[25px] w-[25px]"
               />
