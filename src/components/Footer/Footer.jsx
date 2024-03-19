@@ -1,12 +1,8 @@
-
-
 import ig from "/assets/instagram.png";
 import twitter from "/assets/twitter.png";
 import linkedin from "/assets/linkedIn.png";
 import facebook from "/assets/facebook.png";
 import email from "/assets/email.png";
-
-
 
 const Footer = () => {
   return (
@@ -131,35 +127,46 @@ const Footer = () => {
             </li>
           </ul>
           <div className="flex flex-row">
-            <a href="https://twitter.com/ApeniaBank" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
+            <a
+              href="https://twitter.com/ApeniaBank"
+              className="p-2 bg-slate-200 mr-5 mt-5 rounded-full"
+            >
               <img
                 src={twitter}
                 alt="social icon"
                 className="h-[25px] w-[25px]"
               />
             </a>
-            <a href="https://www.instagram.com/apenia_mfb/" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
-              <img
-                src={ig}
-                alt="social icon"
-                className="h-[25px] w-[25px]"
-              />
+            <a
+              href="https://www.instagram.com/apenia_mfb/"
+              className="p-2 bg-slate-200 mr-5 mt-5 rounded-full"
+            >
+              <img src={ig} alt="social icon" className="h-[25px] w-[25px]" />
             </a>
-            <a href="https://www.facebook.com/apeniabank/" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
+            <a
+              href="https://www.facebook.com/apeniabank/"
+              className="p-2 bg-slate-200 mr-5 mt-5 rounded-full"
+            >
               <img
                 src={facebook}
                 alt="social icon"
                 className="h-[25px] w-[25px]"
               />
             </a>
-            <a href="https://info@apenia.com" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
+            <a
+              href="https://info@apenia.com"
+              className="p-2 bg-slate-200 mr-5 mt-5 rounded-full"
+            >
               <img
                 src={email}
                 alt="social icon"
                 className="h-[25px] w-[25px]"
               />
             </a>
-            <a href="https://linkedin.com/company/apenia-mfb/" className="p-2 bg-slate-200 mr-5 mt-5 rounded-full">
+            <a
+              href="https://linkedin.com/company/apenia-mfb/"
+              className="p-2 bg-slate-200 mr-5 mt-5 rounded-full"
+            >
               <img
                 src={linkedin}
                 alt="social icon"

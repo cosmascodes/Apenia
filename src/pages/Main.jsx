@@ -17,32 +17,32 @@ const Main = () => {
         <Navbar />
       </section>
       <section className="px-5 md:px-20">
-        <Hero/>
+        <Hero />
       </section>
       <section className="px-5 md:px-20">
-            <div className='mt-40 mb-5 md:mb-0 '>
-                <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center'>
-                  What is in for you
-                </h1>
-            </div>
-        <Cards/>
+        <div className="mt-40 mb-5 md:mb-0 ">
+          <h1 className="px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center">
+            What is in for you
+          </h1>
+        </div>
+        <Cards />
       </section>
       <section className="px-5 md:px-20">
-            <div className='mt-40 '>
-                <h1 className='px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center'>
-                  What Apenia account can do
-                </h1>
-            </div>
-        <Content/>
+        <div className="mt-40 ">
+          <h1 className="px-5 font-[Mulish] font-[900] text-primary text-[32px] text-center">
+            What Apenia account can do
+          </h1>
+        </div>
+        <Content />
       </section>
       <section>
-        <Testimonials name="users"/>
+        <Testimonials name="users" />
       </section>
       <section className="px-5 md:px-20">
-        <JoinCard/>
+        <JoinCard />
       </section>
-      <section className="border-t border-t-slate-200">
-        <Footer/>
+      <section className="border-t mt-12 border-t-slate-200">
+        <Footer />
       </section>
     </>
   );
