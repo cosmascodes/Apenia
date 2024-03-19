@@ -10,7 +10,7 @@ export const HeroContents = [
     },
     careers: {
       h1: "Join our journey...",
-      p: "The money app for Africans.",
+      p: "The AI-Powered Money App for Africans.",
     },
     about: {
       h1: "About Apenia",
@@ -26,7 +26,7 @@ export const HeroContents = [
     },
     transfer: {
       h1: "Access your funds anywhere on the go",
-      p: "Enjoy the freedom to access your funds anytime, anywhere, even while on the move, with our mobile banking solutions, ensuring convenience at your fingertips.",
+      p: "Experience the freedom of accessing your funds anytime, anywhere, even on the go, through our AI-enhanced mobile banking solutions, guaranteeing unparalleled convenience at your fingertips.",
     },
     contact: {
       h1: "Connect with Us",
