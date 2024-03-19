@@ -1,8 +1,8 @@
 export const HeroContents = [
     {
         Homepage:{
-            h1:"Modern Banking For Africans",
-            p:"Unleashing infinite banking possibilities for individuals, small businesses and emerging markets."
+            h1:"Africa's Smart Financing with AI",
+            p:"Experience intelligent banking solutions with Apenia. Enjoy the personalized, secure, and effortless transactions powered by advanced AI technology."
         },
         join:{
             h1:"Join the Financial Revolution!",

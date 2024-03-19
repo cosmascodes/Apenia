@@ -14,7 +14,7 @@ function Cards() {
           </div>
           <div className='mt-2'>
                 <h1 className='text-[16px] font-[900] text-primary mb-3'>Empower Yourself</h1>
-            <p className='font-[500] text-[13px]'>Seamlessly Open Your Apenia Account Experience empowerment by quickly self-registering for modern banking solutions. </p>
+            <p className='font-[500] text-[13px]'>Harness AI for effortless self-registration and personalized banking solutions, redefining empowerment in modern finance.</p>
           </div>
         </div>
         <div className='bg-white md:w-[300px] drop-shadow-3xl p-4 rounded-lg mb-3'>
@@ -23,7 +23,7 @@ function Cards() {
           </div>
           <div className='mt-2'>
                 <h1 className='text-[16px] font-[900] text-primary mb-3'>Download Apenia App</h1>
-            <p className='font-[500] text-[13px]'>Access Apenia through our user-friendly app or by dialing *xxxx# for convenient account setup.</p>
+            <p className='font-[500] text-[13px]'>Easily access Apenia via our intuitive app or dial *xxxx# for swift, AI-enhanced account setup, redefining convenience in banking.</p>
           </div>
         </div>
         <div className='bg-white md:w-[300px] drop-shadow-3xl p-4 rounded-lg mb-3'>
@@ -32,7 +32,7 @@ function Cards() {
           </div>
           <div className='mt-2'>
                 <h1 className='text-[16px] font-[900] text-primary mb-3'>Unleash the Power of 24/7 Banking</h1>
-            <p className='font-[500] text-[13px]'>Enjoy round-the-clock banking convenience with Apenia, giving you the freedom to manage your finances whenever you need.</p>
+            <p className='font-[500] text-[13px]'>Experience unparalleled banking convenience with Apenia, leveraging AI for 24/7 access, empowering you to manage finances seamlessly, anytime, anywhere.</p>
           </div>
         </div>
         <div className='bg-white md:w-[300px] drop-shadow-3xl p-4 rounded-lg mb-3'>
@@ -41,7 +41,8 @@ function Cards() {
           </div>
           <div className='mt-2'>
                 <h1 className='text-[16px] font-[900] text-primary mb-3'>Grow Your Savings</h1>
-            <p className='font-[500] text-[13px]'>Earn Competitive Interest Maximize your financial potential with Apenia by earning competitive interest rates on your account balances. </p>
+            <p className='font-[500] text-[13px]'>
+Leverage Apenia to optimize your financial potential with competitive interest rates, powered by AI, maximizing returns on your account balances.</p>
           </div>
         </div>
         <div className='bg-white md:w-[300px] drop-shadow-3xl p-4 rounded-lg mb-3'>
@@ -50,7 +51,8 @@ function Cards() {
           </div>
           <div className='mt-2'>
                 <h1 className='text-[16px] font-[900] text-primary mb-3'>Unlock Your Financial Goals</h1>
-            <p className='font-[500] text-[13px]'>Access Credit Apenia offers access to credit facilities that can help you achieve your financial aspirations without the hassle.</p>
+            <p className='font-[500] text-[13px]'>
+Empower your financial journey with Apenia's AI-driven credit access, seamlessly fulfilling your aspirations without unnecessary hurdles or delays.</p>
           </div>
         </div>
     </div>
